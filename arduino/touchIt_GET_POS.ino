@@ -140,7 +140,11 @@ void setup()
   Serial.begin(9600);
   
   getVersion();
+  
+  // Interrupt on X/Y movement
   setConfig(XMOVE | YMOVE);
+  // Interrupt on X/Y tap
+  //setConfig(TAP);
 }
 
 /**************************************************
