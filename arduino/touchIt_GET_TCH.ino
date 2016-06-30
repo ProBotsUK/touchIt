@@ -143,7 +143,7 @@ void setup()
   
   // Interrupt on position change (0-15)
   setConfig(TMOVE);
-  // Interrupt on X/Y tap
+  // Interrupt on position tap (0-15)
   //setConfig(TAP);
 }
 
