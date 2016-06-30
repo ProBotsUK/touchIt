@@ -4,7 +4,7 @@
 * Get started with touchIt on Arduino! Go to www.probots.co.uk for more information.
 *
 * Configures the touchIt slave address.
-
+*
 * Demonstrates: "0x00 - Get Version", "0x02 - Set Address"
 *
 * Tested on Arduino Nano, Arduino Mega2560
