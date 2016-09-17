@@ -31,7 +31,7 @@
 #define TAP      0x08
 
 // touchIt address
-#define TCHADD1  0x01
+#define TCHADD1  0x70
 
 unsigned char data[10];
 unsigned char crc = 0, c = 0;
