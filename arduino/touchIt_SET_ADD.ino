@@ -30,10 +30,10 @@
 #define TAP      0x08
 
 // touchIt default address
-#define TCHADD1  0x01
+#define TCHADD1  0x70
 
 // touchIt new address (1-127)
-#define TCHADD2  0x02
+#define TCHADD2  0x71
 
 unsigned char data[10];
 unsigned char crc = 0, c = 0;
