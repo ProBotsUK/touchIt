@@ -170,7 +170,7 @@ void loop()
     
     // Receive confirmation
     Wire.beginTransmission(TCHADD1);
-    Wire.requestFrom(TCHADD1, 8);
+    Wire.requestFrom(TCHADD1, 9);
    
     c = 0;    
     while(Wire.available())
