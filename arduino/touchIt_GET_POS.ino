@@ -170,7 +170,7 @@ void loop()
     
     // Receive confirmation
     Wire.beginTransmission(TCHADD1);
-    Wire.requestFrom(TCHADD1, 9);   // Should be 8 (temporary bug fix)
+    Wire.requestFrom(TCHADD1, 8);   
    
     c = 0;    
     while(Wire.available())
@@ -182,12 +182,12 @@ void loop()
     if(data[0] == '$')
     {
       crc = 0;
-      for(c=0;c<8;c++)
+      for(c=0;c<7;c++)
       {
         crc ^= data[c];
       }
       
-      if(crc == data[8])            // Should be data[7] (temporary bug fix)
+      if(crc == data[7])            
       {
         pos = data[3];
         pos <<= 8;
