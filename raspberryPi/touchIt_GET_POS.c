@@ -260,7 +260,7 @@ int main()
 
 	while(1)
 	{
-		if(0 == gpioRead())
+		if(0 == gpioRead())			// touchIt 'int' pin pulled low indicating new touch
 		{
 			// Generate crc
 			crc  = data[0] = '#';		// Start
