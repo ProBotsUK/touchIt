@@ -138,7 +138,7 @@ while True:
     posX = 0x0000
     posY = 0x0000
     
-    if 0 == GPIO.input(intPin):
+    if 0 == GPIO.input(intPin):		# touchIt 'int' pin pulled low indicating new touch
         # Generate crc
         data = []
         data.append('#')            # Start
