@@ -6,7 +6,7 @@
 * Configures touchIt to interrupt in response to touches on one of its 16 pads, and outputs the
 * Coarse data on the console. Uses basic polling for data collection. Set "intPin" as required.
 *
-* Demonstrates: "0x00 - Get Version", "0x01 - Set Configuration", "0x02 - Get Touch"
+* Demonstrates: "0x00 - Get Version", "0x01 - Set Configuration", "0x04 - Get Touch"
 *
 * Tested on Raspberry Pi Zero. Use "sudo apt-get install i2c-tools" (if necessary) and
 *                                  "sudo i2cdetect -y 1" to check it is on the bus (device 0x70)
